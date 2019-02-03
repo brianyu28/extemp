@@ -36,6 +36,7 @@ class App extends Component {
           callInterval={this.state.callInterval}
           speakers={this.state.speakers}
         />
+        <div className="credits">Created by Brian Yu.</div>
       </div>
     );
   }

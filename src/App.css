@@ -5,6 +5,11 @@ body {
   font-family: 'Lato', sans-serif;
 }
 
+.credits {
+  font-size: 12px;
+  margin-top: 20px;
+}
+
 #currentTime {
   font-size: 72px;
 }
