@@ -1,7 +1,7 @@
 {
   "name": "extemp",
   "version": "0.1.0",
-  "homepage": "http://brianyu28.github.io/extemp",
+  "homepage": "https://brianyu28.github.io/extemp",
   "private": true,
   "dependencies": {
     "moment": "^2.24.0",
@@ -16,7 +16,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "predeploy": "yarn build",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
@@ -29,6 +29,7 @@
     "not op_mini all"
   ],
   "devDependencies": {
-    "gh-pages": "^2.0.1"
+    "gh-pages": "^2.0.1",
+    "terser": "^3.14.1"
   }
 }
