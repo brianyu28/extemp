@@ -41,7 +41,8 @@ table {
 
 td, th {
   border: 1px solid black;
-  padding: 15px;
+  padding-top: 15px;
+  padding-bottom: 15px;
   font-size: 22px;
 }
 
