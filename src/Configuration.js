@@ -38,22 +38,22 @@ class Configuration extends Component {
           <div>
             Draw Interval
             <br/>
-            <input name="drawInterval" value={this.props.drawInterval} onChange={this.props.onConfigChange} type="number" />
+            <input min={0} name="drawInterval" value={this.props.drawInterval} onChange={this.props.onConfigChange} type="number" />
           </div>
           <div>
             Release Interval
             <br/>
-            <input name="releaseInterval" value={this.props.releaseInterval} onChange={this.props.onConfigChange} type="number" />
+            <input min={0} name="releaseInterval" value={this.props.releaseInterval} onChange={this.props.onConfigChange} type="number" />
           </div>
           <div>
             Call Interval
             <br/>
-            <input name="callInterval" value={this.props.callInterval} onChange={this.props.onConfigChange} type="number" />
+            <input min={0} name="callInterval" value={this.props.callInterval} onChange={this.props.onConfigChange} type="number" />
           </div>
           <div>
             Speakers
             <br/>
-            <input name="speakers" value={this.props.speakers} onChange={this.props.onConfigChange} type="number" />
+            <input min={0} name="speakers" value={this.props.speakers} onChange={this.props.onConfigChange} type="number" />
           </div>
         </div>
         <div>
